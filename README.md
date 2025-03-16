@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0070-climbing-stairs) |
 | [0371-sum-of-two-integers](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0371-sum-of-two-integers) |
 ## Bit Manipulation
 |  |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
 ## Breadth-First Search
 |  |
