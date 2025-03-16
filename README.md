@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0213-house-robber-ii) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
 ## Sorting
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0091-decode-ways](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
+| [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
 ## Trie
 |  |
 | ------- |
