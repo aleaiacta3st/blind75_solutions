@@ -6,98 +6,118 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 
-from typing import Optional
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val = 0, neighbors = None):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+"""
+
+from collections import deque
+
+
 class Solution:
-    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+
+    def cloneGraph(self, node: Optional["Node"]) -> Optional["Node"]:
+
         if not node:
-            return None
-        cloned={}
-        def deepClonedfs(original):
-            if original in cloned:
-                return cloned[original]
-            cloned[original]=Node(original.val)
-            cloned[original].neighbors=[]
-            for neighbor in original.neighbors:
-                cloned[original].neighbors.append(deepClonedfs(neighbor))
-            return cloned[original]
-        return deepClonedfs(node)
+            return node
+
+        # Dictionary to save the visited node and it's respective clone
+        # as key and value respectively. This helps to avoid cycles.
+        visited = {}
+
+        # Put the first node in the queue
+        queue = deque([node])
+        # Clone the node and put it in the visited dictionary.
+        visited[node] = Node(node.val, [])
+
+        # Start BFS traversal
+        while queue:
+            # Pop a node say "n" from the from the front of the queue.
+            n = queue.popleft()
+            # Iterate through all the neighbors of the node
+            for neighbor in n.neighbors:
+                if neighbor not in visited:
+                    # Clone the neighbor and put in the visited, if not present already
+                    visited[neighbor] = Node(neighbor.val, [])
+                    # Add the newly encountered node to the queue.
+                    queue.append(neighbor)
+                # Add the clone of the neighbor to the neighbors of the clone node "n".
+                visited[n].neighbors.append(visited[neighbor])
+
+        # Return the clone of the node from visited.
+        return visited[node]
 
 
+# While q: is Python shorthand for:
+# "While the queue q is not empty, keep looping."
+#  In more detail:
+    # q is a deque (a double-ended queue).
+    # In Python, any container (like a list or deque) evaluates to:
+    # False when it's empty
+    # True when it has elements
+    # So while q: keeps running until q is empty.
 
+# if not node:
+#     return node
+# Think of it as if (not node)
+# edge case handler
+# In Python, if not node: evaluates to True when:
+#     node is None
+#     node is an empty container
+#     node is zero or False
 
-#the dfs that is used here is not just for searching. 
-# we augment it to even clone the nodes.
+# why should a neighbor be enqueued only when it is not in cloned
+# When you enqueue a node, it is with the purpose of exploring 
+# all its connections in the future. If you have already discovered 
+# a node, there is no need to schedule it again in the queue
 
-#the dfs(neighbor) call returns a clone of the neighbor
+# Consider what would happen in a cycle - if Node A connects to Node B, 
+# and Node B connects to Node A:
+# Without the check, you would enqueue B, then while processing B, enqueue A again, 
+# then while processing A, enqueue B again... an endless cycle!
+# With the check, once a node is in 'cloned', we know it will be fully explored, 
+# so you need not schedule it again in the queue.
 
+# for neighbor in n.neighbors:
+#     if neighbor not in visited:
+#         # Clone the neighbor and put in the visited, if not present already
+#         visited[neighbor] = Node(neighbor.val, [])
+#         # Add the newly encountered node to the queue.
+#         queue.append(neighbor)
+#     # Add the clone of the neighbor to the neighbors of the clone node "n".
+#     visited[n].neighbors.append(visited[neighbor])
 
+# observe that the starting node is fully processed in the first iteration of the 
+# for loop
+# it is cloned, its neighbors are cloned, and these cloned neighbors are added to 
+# the neighbor list of the clone 
+# In dfs with recursion, the starting node though created first, its neighbor list 
+# was completed the last
 
-#Consider the graph A>B>C>A
-#There is a loop from C to A
-#Call dfs(A)
-#that calls dfs(B) which calls dfs(C) which again calls dfs(A)
-#this cycle of recursion will never end
-#this is where the dictionary comes into play
-#The first time we encounter a node, we create a new copy of it,
-#  store it in cloned, and start filling its neighbors. 
-# If we ever encounter the same node again later in the recursion, 
-# we don't repeat the cloning process—we simply return the 
-# existing clone immediately.
-#A for loop in Python only runs if there is something to 
-# iterate over. If the collection is empty, the loop body is 
-# completely skipped.
+# Take the given node n. Its clone is created. Its neighbor list is updated with the correct neighbor clones.
+# later when one of these neighbor clones is being processed, it should be updated with its own neighbor clones among which n would be present. 
+# so we see that connections are being made both sides. 
 
-# Observe that we are finally returning a single node.
-# So, how can leetcode check if all the other edges and nodes are cloned as expected?
-# We return cloned[original]
-# In memory it exists like cloned[original.val] and [clonednode2,clonednode3]
-# clonednode2 and clonode3 are node objects and they have their own neighbors
-# so by returning a reference to a single node, leetcode will be able to traverse 
-# the entire graph.
+# We want to correctly handle cases like a-b-c-a where there is a cycle 
+# Having connections both ways like described i snot the same as having a cycle
 
-#The neighbor list of cloned[original] is built last because of 
-# recursion’s Last-In-First-Out (LIFO) nature
-#When we do DFS recursion, each function call waits until all its recursive calls 
-# finish before adding neighbors. This means:
-    # The first node we start cloning is the last one to finish setting up its neighbors.
-    # The deepest node in the recursion tree (the last one to be visited) finishes first.
+# if neighbor not in visited:
+#     # Clone the neighbor and put in the visited, if not present already
+#     visited[neighbor] = Node(neighbor.val, [])
+#     # Add the newly encountered node to the queue.
+#     queue.append(neighbor)
 
-#  1 -- 2 -- 3
-#Calling dfs(1) starts the cloning process:
-    # dfs(1) calls dfs(2) before finishing.
-    # dfs(2) calls dfs(3) before finishing.
-    # dfs(3) has no new neighbors left, so it returns first.
-    # dfs(2) can now add dfs(3)'s result to its neighbors and return.
-    # dfs(1) can now add dfs(2)'s result to its neighbors and return.
-# Since dfs(1) was the first function called, it is the 
-# last function to complete, and its neighbors list is the last to be fully built.
+# see the above lines of code. when a neighbor is not cloned. The if condition holds true.
+# It is cloned and enqueued. This neighbor to node n can be a neighbor to some other 
+# node and will come up for processing again. BUt we shouldnt clone and enqueue it again. 
+# It has already been enqueued when it was first discovered. Just add the clone to 
+# the neighbor list of the node that is being corrently processed and move on.
 
-#Creation order is pre-order, going down the recursion.
-    #Node1, Node2,Node3
-#Connection order is post-order, as recursion unwinds
-    #Complete cloned[node3].neighbors first
-    # Then cloned[node2].neighbors
-    # Finally cloned[node1].neighbors
-
-#1️First Thought: "DFS(node) Should Return a Clone"
-# Before even thinking about memoization (cloned dictionary), 
-# the key insight is:
-# "What should dfs(node) return?"
-# Since we want to recreate the graph, we expect dfs(node) to 
-# return a clone of node.
-# If dfs(node) properly returns a clone, then recursively calling 
-# dfs(neighbor) will return cloned neighbors.
-# this naturally leads to dfs(node) → returns a clone of `node`
-
-# Second Thought: "How Do We Prevent Infinite Recursion?"
-# If the graph has cycles, a naive DFS could run forever.
-# If a node has already been cloned, we shouldn’t recreate 
-# it—we should return the existing clone.
-# This leads to the need for a way to remember already-cloned nodes.
-
-# Third Thought: "We Need a Dictionary for Memoization"
-# To avoid cloning the same node multiple times, we need a 
-# dictionary (cloned).
-# The dictionary will map original nodes to their clones, 
-# so we don’t reprocess them.
+# If this check is absent, we enqueue the same nodes over and over and it never ends.
+# In DFS with recursion, you'll hit an infinite recursion that crashes with a '
+# 'stack overflow. You keep calling deeper and deeper on the same cycle of nodes '
+# 'until your program explodes.
         
