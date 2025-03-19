@@ -22,6 +22,15 @@ class Solution:
         return True
 
 
+# adj_list = [[] for _ in range(numCourses)]
+# adj_list=[[]]*numCourses will be wrong 
+# because all the empty list created would have the same memory reference
+# If you do adj_list.append(1)
+# the result is [[1],[1],[1]]
+# But [0]*len(nums) works as we have seen in dp problems because
+# ints are immutable. Lists are mutable and that is what causes the above issue.
+
+
 # In topological sorting, we need to list nodes so that all prerequisites come before
 # their dependent courses. When a node "completes" in DFS, it means we've explored all'
 # ' its descendants - which are precisely its prerequisites in a dependency graph.'
