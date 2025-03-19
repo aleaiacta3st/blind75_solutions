@@ -6,118 +6,72 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 
-"""
-# Definition for a Node.
-class Node:
-    def __init__(self, val = 0, neighbors = None):
-        self.val = val
-        self.neighbors = neighbors if neighbors is not None else []
-"""
-
-from collections import deque
-
-
+from typing import Optional
 class Solution:
-
-    def cloneGraph(self, node: Optional["Node"]) -> Optional["Node"]:
-
+    def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if not node:
             return node
+        cloned={}
+        stack=[]
+        stack.append(node)
+        cloned[node]=Node(node.val,[])
+        while stack:
+            current=stack.pop()
+            for neighbor in current.neighbors:
+                if neighbor not in cloned:
+                    cloned[neighbor]=Node(neighbor.val,[])
+                    stack.append(neighbor)
+                cloned[current].neighbors.append(cloned[neighbor])
+        return cloned[node]
 
-        # Dictionary to save the visited node and it's respective clone
-        # as key and value respectively. This helps to avoid cycles.
-        visited = {}
+# this solution looks very similar to bfs solution. 
+# in dfs with recursion, i could very easily see that we are doing a dfs, 
+# reaching a neighbor node, then going to its first neigh bor, then going 
+# to its first neighbor etc. 
+# but dfs+iteration looks like i am doing a bfs again.
 
-        # Put the first node in the queue
-        queue = deque([node])
-        # Clone the node and put it in the visited dictionary.
-        visited[node] = Node(node.val, [])
+# The key difference lies in the data structure used:
+# # BFS uses a queue (FIFO)
+# current = queue.popleft()  # Process nodes in order they were discovered
+# # DFS uses a stack (LIFO)
+# current = stack.pop()  # Process most recently discovered node first
+# This seemingly small difference creates entirely different traversal 
+# patterns:
+#     1
+#    / \
+#   2   3
+#  / \
+# 4   5
 
-        # Start BFS traversal
-        while queue:
-            # Pop a node say "n" from the from the front of the queue.
-            n = queue.popleft()
-            # Iterate through all the neighbors of the node
-            for neighbor in n.neighbors:
-                if neighbor not in visited:
-                    # Clone the neighbor and put in the visited, if not present already
-                    visited[neighbor] = Node(neighbor.val, [])
-                    # Add the newly encountered node to the queue.
-                    queue.append(neighbor)
-                # Add the clone of the neighbor to the neighbors of the clone node "n".
-                visited[n].neighbors.append(visited[neighbor])
+# BFS traversal: 1, 2, 3, 4, 5 (level by level)
+# DFS traversal: 1, 3, 2, 5, 4 (assuming neighbors are processed left to right)
 
-        # Return the clone of the node from visited.
-        return visited[node]
+# The recursive DFS "feels" more like depth-first because the 
+# call stack naturally creates the deep-diving behavior. 
+# With iterative DFS, you have to explicitly manage that 
+# behavior with a stack.
+# Both implementations are valid DFS approaches - they just express 
+# the algorithm differently. The stack version is usually preferred 
+# for very deep graphs where recursive calls might cause stack overflow.
 
+# when a program becomes a process, it has both heap and stack. This stack 
+# where functions are placed one above the other, is in the stack area. 
+# when you create a stack explicitly, is it on the heap.
+# When a program becomes a process, its memory is divided into segments:
+#     The text/code segment (program instructions)
+#     Data segment (global/static variables)
+#     Stack (function call frames)
+#     Heap (dynamically allocated memory)
+# The call stack in the dfs+recursion method is in the stack area of the 
+# process memory. It's automatically managed by the system and has a fixed'
+# ' size limit. This is why very deep recursion can cause "stack overflow" errors.'
+# When we explicitly create a stack in our code:
+# stack = []  
+# now we are creating a data structure that lives on the heap, 
+# not the stack area. The heap is for dynamically allocated memory and is 
+# typically much larger than the stack.
+# This is why iterative DFS can handle much deeper graphs than recursive 
+# DFS - your explicit stack on the heap can grow much larger than the call 
+# stack is allowed to.
 
-# While q: is Python shorthand for:
-# "While the queue q is not empty, keep looping."
-#  In more detail:
-    # q is a deque (a double-ended queue).
-    # In Python, any container (like a list or deque) evaluates to:
-    # False when it's empty
-    # True when it has elements
-    # So while q: keeps running until q is empty.
-
-# if not node:
-#     return node
-# Think of it as if (not node)
-# edge case handler
-# In Python, if not node: evaluates to True when:
-#     node is None
-#     node is an empty container
-#     node is zero or False
-
-# why should a neighbor be enqueued only when it is not in cloned
-# When you enqueue a node, it is with the purpose of exploring 
-# all its connections in the future. If you have already discovered 
-# a node, there is no need to schedule it again in the queue
-
-# Consider what would happen in a cycle - if Node A connects to Node B, 
-# and Node B connects to Node A:
-# Without the check, you would enqueue B, then while processing B, enqueue A again, 
-# then while processing A, enqueue B again... an endless cycle!
-# With the check, once a node is in 'cloned', we know it will be fully explored, 
-# so you need not schedule it again in the queue.
-
-# for neighbor in n.neighbors:
-#     if neighbor not in visited:
-#         # Clone the neighbor and put in the visited, if not present already
-#         visited[neighbor] = Node(neighbor.val, [])
-#         # Add the newly encountered node to the queue.
-#         queue.append(neighbor)
-#     # Add the clone of the neighbor to the neighbors of the clone node "n".
-#     visited[n].neighbors.append(visited[neighbor])
-
-# observe that the starting node is fully processed in the first iteration of the 
-# for loop
-# it is cloned, its neighbors are cloned, and these cloned neighbors are added to 
-# the neighbor list of the clone 
-# In dfs with recursion, the starting node though created first, its neighbor list 
-# was completed the last
-
-# Take the given node n. Its clone is created. Its neighbor list is updated with the correct neighbor clones.
-# later when one of these neighbor clones is being processed, it should be updated with its own neighbor clones among which n would be present. 
-# so we see that connections are being made both sides. 
-
-# We want to correctly handle cases like a-b-c-a where there is a cycle 
-# Having connections both ways like described i snot the same as having a cycle
-
-# if neighbor not in visited:
-#     # Clone the neighbor and put in the visited, if not present already
-#     visited[neighbor] = Node(neighbor.val, [])
-#     # Add the newly encountered node to the queue.
-#     queue.append(neighbor)
-
-# see the above lines of code. when a neighbor is not cloned. The if condition holds true.
-# It is cloned and enqueued. This neighbor to node n can be a neighbor to some other 
-# node and will come up for processing again. BUt we shouldnt clone and enqueue it again. 
-# It has already been enqueued when it was first discovered. Just add the clone to 
-# the neighbor list of the node that is being corrently processed and move on.
-
-# If this check is absent, we enqueue the same nodes over and over and it never ends.
-# In DFS with recursion, you'll hit an infinite recursion that crashes with a '
-# 'stack overflow. You keep calling deeper and deeper on the same cycle of nodes '
-# 'until your program explodes.
         
