@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,11 +124,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
+| [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
+| [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 ## Graph
 |  |
 | ------- |
@@ -137,4 +140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
+## Matrix
+|  |
+| ------- |
+| [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 <!---LeetCode Topics End-->
