@@ -3,41 +3,109 @@ class Solution:
         m,n=len(heights),len(heights[0])
         can_reach_atlantic=set()
         can_reach_pacific=set()
-        
-        def dfs_atlantic(i,j):
+
+        atlantic_queue=deque()
+        for j in range(n):
+            atlantic_queue.append((m-1,j))
+        for i in range(m):
+            atlantic_queue.append((i,n-1))
+
+        pacific_queue=deque()
+        for i in range(m):
+            pacific_queue.append((i,0))
+        for j in range(n):
+            pacific_queue.append((0,j))
+
+        while atlantic_queue:
+            (i,j)=atlantic_queue.popleft()
             if (i,j) not in can_reach_atlantic:
                 can_reach_atlantic.add((i,j))
                 for a,b in [(i-1,j),(i+1,j),(i,j-1),(i,j+1)]:
-                    if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
-                        dfs_atlantic(a,b)
-        
-        def dfs_pacific(i,j):
+                    if (a,b) not in can_reach_atlantic:
+                        if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
+                            atlantic_queue.append((a,b))
+
+        while pacific_queue:
+            (i,j)=pacific_queue.popleft()
             if (i,j) not in can_reach_pacific:
                 can_reach_pacific.add((i,j))
                 for a,b in [(i-1,j),(i+1,j),(i,j-1),(i,j+1)]:
-                    if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
-                        dfs_pacific(a,b)
-
-        for j in range(n):
-            dfs_atlantic(m-1,j)
-
-        for i in range(m):
-            dfs_atlantic(i,n-1)
-
-        for i in range(m):
-            dfs_pacific(i,0)
-
-        for j in range(n):
-            dfs_pacific(0,j)
+                    if (a,b) not in can_reach_pacific:
+                        if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
+                            pacific_queue.append((a,b))
 
         intersection_set = can_reach_pacific & can_reach_atlantic
+        return [list(i) for i in intersection_set]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    # DFS solution starts from here    
+    #     m,n=len(heights),len(heights[0])
+    #     can_reach_atlantic=set()
+    #     can_reach_pacific=set()
+        
+    #     def dfs_atlantic(i,j):
+    #         if (i,j) not in can_reach_atlantic:
+    #             can_reach_atlantic.add((i,j))
+    #             for a,b in [(i-1,j),(i+1,j),(i,j-1),(i,j+1)]:
+    #                 if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
+    #                     dfs_atlantic(a,b)
+        
+    #     def dfs_pacific(i,j):
+    #         if (i,j) not in can_reach_pacific:
+    #             can_reach_pacific.add((i,j))
+    #             for a,b in [(i-1,j),(i+1,j),(i,j-1),(i,j+1)]:
+    #                 if 0<=a<m and 0<=b<n and heights[a][b]>=heights[i][j]:
+    #                     dfs_pacific(a,b)
 
-        final_list=[]
+    #     for j in range(n):
+    #         dfs_atlantic(m-1,j)
 
-        for i in intersection_set:
-            final_list.append(list(i))
+    #     for i in range(m):
+    #         dfs_atlantic(i,n-1)
 
-        return final_list
+    #     for i in range(m):
+    #         dfs_pacific(i,0)
+
+    #     for j in range(n):
+    #         dfs_pacific(0,j)
+
+    #     intersection_set = can_reach_pacific & can_reach_atlantic
+
+    #     final_list=[]
+
+    #     for i in intersection_set:
+    #         final_list.append(list(i))
+
+    #     return final_list
     
 
 
