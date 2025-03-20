@@ -36,31 +36,47 @@ class Solution:
 
         intersection_set = can_reach_pacific & can_reach_atlantic
         return [list(i) for i in intersection_set]
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+# observe that the queue is initially loaded with all ocean bordering nodes. 
+# in dfs+recursion we did dfs on every node. but that is not the case here. 
+# we might think that a bfs queue should be first filled with one node. 
+# then it is popped out then filled with its neighbors and so on. 
+# so why did our initial queue contain all ocean bordering nodes?
+
+# In DFS:
+# You start from one border node and recursively go to all reachable places.
+# You do this for every border node individually.
+# Each DFS call from each border cell explores outward.
+# In BFS (iterative):
+# Instead of running BFS once for each border cell (which would repeat setup and cost time),
+# You load the queue initially with all border cells at once — they all start as the “first layer” of exploration.
+# Then BFS expands from all of them simultaneously, level by level.
+# Why does this work?
+# Every border cell is a “source” — you’re letting them all spread out simultaneously.
+# Each pop from the queue is like a wave expanding outward.
+# This ensures no duplication, and each node is only visited when it can be reached 
+# from the ocean border.
+# If you started with only one node:
+# You’d be doing BFS from just that cell.
+# Then you’d have to repeat that BFS from every single border cell again.
+# The combined BFS starting from all border cells together saves time and 
+# does exactly the same work in parallel.
+
+#multi-source bfs
+# Multi-source BFS is a strategy where instead of starting BFS from one single source node,
+# you start from multiple sources at once — all loaded into the queue together.
+# All these sources are placed in the queue at the beginning.
+# BFS expands outward from all of them simultaneously, layer by layer.
+# It’s like starting multiple fires around a forest and watching them all 
+# spread until they meet.
+# It avoids redundant searches.
+# It lets you find the shortest distance from any of the multiple sources to a target.
+# The search is perfectly balanced — all sources expand in parallel.
+# Classic use cases:
+# The Pacific Atlantic Water Flow problem (exactly what you’re doing!)
+# Finding the minimum distance from multiple obstacles or fires to every cell in a grid.
+# Spreading influence, infection, or signal from multiple initial locations
         
         
         
