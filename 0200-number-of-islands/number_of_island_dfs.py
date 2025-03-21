@@ -28,34 +28,3 @@ def numIslands(grid):
             count=count+1
 
     return count
-
-
-An alternate concise solution
-def numIslands(grid):
-    if not grid:
-        return 0
-        
-    m, n = len(grid), len(grid[0])
-    visited = set()
-    
-    def dfs(i, j):
-        # Base case: out of bounds or water or already visited
-        if i < 0 or i >= m or j < 0 or j >= n or grid[i][j] == "0" or (i, j) in visited:
-            return
-            
-        visited.add((i, j))
-        
-        # Explore in all 4 directions
-        dfs(i+1, j)  # down
-        dfs(i-1, j)  # up
-        dfs(i, j+1)  # right
-        dfs(i, j-1)  # left
-    
-    count = 0
-    for i in range(m):
-        for j in range(n):
-            if grid[i][j] == "1" and (i, j) not in visited:
-                dfs(i, j)
-                count += 1
-                
-    return count
