@@ -114,4 +114,35 @@ class Solution:
             # Returns 1 + max(0,0) = 1 for node 7
         # Returns 1 + max(1,1) = 2 for node 20
     # Finally, dfs(3) returns 1 + max(1, 2) = 3
+
+
+    # Mental Approach Checklist for Tree Recursion Problems
+# 1. Clarify the question:
+# What is being asked? Usually: "From each node, what is the result if 
+# I go down to its children and combine their results?"
+# 2. Identify if it's a tree (not a graph):
+# No cycles, no visited set needed.
+# Each node has at most two children (binary tree).
+# 3. Think return-value first, not state:
+# Instead of maintaining external state, aim to return a value from each call.
+# Ask yourself: "What will I return to my parent that helps them compute their answer?"
+# 4. Ask both children and combine answers:
+# Typical pattern: return 1 + max(left_child_result, right_child_result)
+# If a node is None, return 0.
+# 5. Visualize a tiny example tree:
+# Example:
+#     1
+#    / \
+#   2   None
+# dfs(2) returns 1
+# dfs(None) returns 0
+# dfs(1) returns 1 + max(1,0) = 2
+# 6. Trust bottom-up recursion:
+# Leaves return 1 (their depth), parents just take the max and add 1.
+# No tracking, no global variables needed.
+# 7. Confirm by mentally running through one level:
+# For each node: "I ask my left and right children for their numbers, take the 
+# bigger one, add one for myself, and return it."
+# 8. Key mental mantra:
+# In graphs: store and track. In trees: return and combine.
             
