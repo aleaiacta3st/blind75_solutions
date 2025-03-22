@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
@@ -161,4 +163,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
