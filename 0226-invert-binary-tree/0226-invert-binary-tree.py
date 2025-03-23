@@ -27,3 +27,9 @@ class Solution:
 # If you draw a simple tree and observe, you will find 
 # that queuing AFTER swapping left and right values 
 # inverts the structure of a tree
+
+# When you enqueue after swapping:
+# You’ve already inverted the children.
+# Now you’re saying: "Here’s the new left and right children — "
+# "go forth and invert their subtrees as well."
+# The queue always holds the correct current structure, step by step.
