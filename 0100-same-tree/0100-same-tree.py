@@ -27,7 +27,26 @@ class Solution:
                     stack_p.append(popped_p.left)
                     stack_q.append(popped_q.right)
                     stack_q.append(popped_q.left)
-        return True
+        return (len(stack_p)==len(stack_q))
+
+#dfs with iteration
+#make two stacks
+# pop nodes
+# compare values
+# if equal, push their children into the stack.
+# Don't worry is one of the children is None.'
+# Because when None is popped, it falls into one the 
+# if conditions and immediately returns False 
+# we have only implicitly considered the case when 
+# both popped nodes are none. In that case the structures 
+# are still equal, but there is no point to adding them to the stack.
+# we just saved some processing overhead. 
+
+#the while loop stops when atleast one of the stacks is empty. 
+# if a structure is deeper than the other, it may still be non-empty
+# while the other stack is empty
+# that is why as a final check we must verify that lengths of both 
+# stacks is the same 
         
         
         
