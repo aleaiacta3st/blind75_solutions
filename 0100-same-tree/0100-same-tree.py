@@ -10,6 +10,44 @@ class Solution:
             return True 
         if p==None or q==None:
             return False
+        stack_p=[p]
+        stack_q=[q]
+        while stack_p and stack_q:
+            popped_p=stack_p.pop()
+            popped_q=stack_q.pop()
+            if (popped_p!=None and popped_q!=None):
+                if (popped_p.val!=popped_q.val):
+                    return False
+                else:
+                    stack_p.append(popped_p.right)
+                    stack_p.append(popped_p.left)
+                    stack_q.append(popped_q.right)
+                    stack_q.append(popped_q.left)
+            if (popped_p==None and popped_q!=None):
+                return False
+            if (popped_p!=None and popped_q==None):
+                return False
+        if (len(stack_p)==len(stack_q)):
+            return True
+        else:
+            return False
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+#dfs with recursion starts here        
+        if p==None and q==None:
+            return True 
+        if p==None or q==None:
+            return False
         if (p.val==q.val):
             return self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
         return False
