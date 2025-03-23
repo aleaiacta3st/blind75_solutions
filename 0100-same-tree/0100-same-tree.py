@@ -15,6 +15,10 @@ class Solution:
         while stack_p and stack_q:
             popped_p=stack_p.pop()
             popped_q=stack_q.pop()
+            if (popped_p==None and popped_q!=None):
+                return False
+            if (popped_p!=None and popped_q==None):
+                return False
             if (popped_p!=None and popped_q!=None):
                 if (popped_p.val!=popped_q.val):
                     return False
@@ -23,14 +27,7 @@ class Solution:
                     stack_p.append(popped_p.left)
                     stack_q.append(popped_q.right)
                     stack_q.append(popped_q.left)
-            if (popped_p==None and popped_q!=None):
-                return False
-            if (popped_p!=None and popped_q==None):
-                return False
-        if (len(stack_p)==len(stack_q)):
-            return True
-        else:
-            return False
+        return True
         
         
         
