@@ -8,16 +8,29 @@ class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
             return root 
-        queue=deque([root])
-        while queue:
-            popped_node=queue.popleft()
-            if popped_node!=None:
-                temp=popped_node.left 
-                popped_node.left=popped_node.right
-                popped_node.right=temp
-                queue.append(popped_node.left)
-                queue.append(popped_node.right)
+        if (root.left==None and root.right==None):
+            return root 
+        else:
+            root.left,root.right=root.right,root.left
+            self.invertTree(root.left)
+            self.invertTree(root.right)
         return root
+             
+        
+        
+    # bfs with iteration    
+    #     if not root:
+    #         return root 
+    #     queue=deque([root])
+    #     while queue:
+    #         popped_node=queue.popleft()
+    #         if popped_node!=None:
+    #             temp=popped_node.left 
+    #             popped_node.left=popped_node.right
+    #             popped_node.right=temp
+    #             queue.append(popped_node.left)
+    #             queue.append(popped_node.right)
+    #     return root
         
 # Using bfs, going layer by layer
 # create a queue
