@@ -19,3 +19,11 @@ class Solution:
                 queue.append(popped_node.right)
         return root
         
+# Using bfs, going layer by layer
+# create a queue
+# pop a node 
+# swap left and right if node is not None 
+# Queue the children nodes AFTER swapping
+# If you draw a simple tree and observe, you will find 
+# that queuing AFTER swapping left and right values 
+# inverts the structure of a tree
