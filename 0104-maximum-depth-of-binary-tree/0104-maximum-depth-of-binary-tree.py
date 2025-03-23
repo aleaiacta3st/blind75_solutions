@@ -6,20 +6,50 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
+        #dfs with iteration
         if not root:
             return 0
-        queue=deque([root])
-        depth=0
-        while queue:
-            k=len(queue)#gives the total nodes at a level
-            for _ in range(k):
-                n=queue.popleft()
-                if (n.left):#add to queue only if the left child exists
-                    queue.append(n.left)
-                if (n.right):#add to queue only if the right child exists
-                    queue.append(n.right)
-            depth+=1
-        return depth
+        stack=[(root,1)]
+        current_max=0
+        while stack:
+            curr_node,depth=stack.pop()
+            current_max=max(current_max,depth)
+            if (curr_node.right):
+                stack.append((curr_node.right,depth+1))
+            if (curr_node.left):
+                stack.append((curr_node.left,depth+1 ))
+        return current_max
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# bfs starts here
+        # if not root:
+        #     return 0
+        # queue=deque([root])
+        # depth=0
+        # while queue:
+        #     k=len(queue)#gives the total nodes at a level
+        #     for _ in range(k):
+        #         n=queue.popleft()
+        #         if (n.left):#add to queue only if the left child exists
+        #             queue.append(n.left)
+        #         if (n.right):#add to queue only if the right child exists
+        #             queue.append(n.right)
+        #     depth+=1
+        # return depth
 
 # Count the number of levels
 # BFS processes nodes level-wise 
@@ -54,7 +84,7 @@ class Solution:
 
 
 
-#dfs starts here
+#dfs with recursion starts here
         # if not root:
         #     return 0
         # return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
