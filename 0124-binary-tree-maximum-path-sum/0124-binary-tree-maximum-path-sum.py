@@ -54,4 +54,42 @@ class Solution:
 
 # This problem is different as we calculate two different values in every recursive call,
 # but we only return one value to the parent recursive call.
+
+# Space complexity 
+# worst case O(n)
+# Best case O(log n)
+#             1
+#          /     \
+#        2         3
+#       / \       / \
+#      4   5     6   7
+# What does the stack look like as you do dfs(root)?
+# Call dfs(1) → stack: [1]
+# Go left: call dfs(2) → stack: [1, 2]
+# Go left: call dfs(4) → stack: [1, 2, 4]
+# No children → return and pop → back to stack: [1, 2]
+# Go right: call dfs(5) → stack: [1, 2, 5]
+# No children → pop to: [1, 2]
+# Done with node 2, pop back: [1]
+# Go right: call dfs(3) → stack: [1, 3]
+# Continue similarly.
+# \U0001f449 Maximum call stack depth?
+# At most 3 calls active (root → child → grandchild).
+# Height = 3 levels.
+
+#     1
+#      \
+#       2
+#        \
+#         3
+#          \
+#           4
+# Call dfs(1) → [1]
+# Call dfs(2) → [1, 2]
+# Call dfs(3) → [1, 2, 3]
+# Call dfs(4) → [1, 2, 3, 4]
+# Return, pop.
+# \U0001f449 Maximum call stack depth?
+# 4 calls active at one point.
+# Stack depth = height = number of nodes = N.
         
