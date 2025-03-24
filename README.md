@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0198-house-robber) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
@@ -172,11 +174,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0226-invert-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
