@@ -207,4 +207,35 @@ class Codec:
 # Serialize	Tree	                A single string that looks like a flattened tree: "[1,2,3,null,null,4,5]"
 # Deserialize	That string blueprint	Reconstructed tree (root node of type TreeNode)
 
+""" 
+when you do level order traversal and serialize the tree in the list data
+what you get is root followed by sets of children
+it looks like
+data = [root children children children .....]
+consider the tree 
+        0
+      /   \
+     1     2
+    / \   / \
+   3   4 5   6
+when you serialize using level order traversal
+data = [0 1 2 3 4 5 6]
+data = [[root] [children of 0] [children of 1] [children of 2]]
+for every node popped out of queue you just assign the next children set in data
+that is why data_walker+1 and data_walker+2 might make this misleading
+you are just assigning the next children set to the popped parent
+better approach is 
+i=0
+assign left child
+i+=1
+assign right child
+i+=1
+an additional advantage of this style is that you don't have to check 
+if i+1 and i+2 are in range, just do one check for i at the while loop and that
+would be sufficient
+"""
 
+# When using level-order (BFS) serialization, what we're creating is essentially
+#  a flattened representation of the tree by levels:
+# [root, level1_node1, level1_node2, level2_node1, level2_node2, level2_node3, 
+# level2_node4, ...]
