@@ -14,3 +14,10 @@ class Solution:
             else:
                 return False
         return dfs(root,-float('inf'),float('inf'))
+
+
+# BST Validation Logic: The Narrowing Boundaries Approach
+# Recursively check each node against progressively narrowing value boundaries. 
+# Each node passes its own value as a new boundary to its children - 
+# becoming the upper bound for left children and lower bound for right 
+# children. Start with infinite boundaries at the root.
