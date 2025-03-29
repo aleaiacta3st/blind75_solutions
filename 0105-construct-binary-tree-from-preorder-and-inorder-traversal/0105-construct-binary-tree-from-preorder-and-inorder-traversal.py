@@ -42,6 +42,24 @@ class Solution:
 
 # Together, they contain enough information to perfectly reconstruct the original tree structure. 
 
+# With preorder alone, you cannot reconstruct the tree because:
+# In preorder [Root, Left, Right], you know the root (first element), 
+# but you cannot determine where the left subtree ends and right subtree begins.
+
+# For example, with preorder [0,1,3,2,4,5]:
+
+# We know 0 is root
+# But is [1,3] the entire left subtree? Or just [1]? Or [1,3,2]?
+# There's no definitive boundary
+
+# The inorder traversal provides exactly this missing boundary information by 
+# placing the root between its subtrees: [Left, Root, Right].
+# With inorder [1,3,0,4,2,5]:
+
+# When we find 0 at position 2
+# Everything before (positions 0-1) must be in its left subtree [1,3]
+# Everything after (positions 3-5) must be in its right subtree [4,2,5]
+
 
 
 
