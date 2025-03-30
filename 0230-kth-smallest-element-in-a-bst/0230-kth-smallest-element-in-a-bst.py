@@ -29,6 +29,10 @@ class Solution:
 
 
 
+# do an inorder traversal.
+
+
+
 # Yes, in-order is usually harder than pre-order for beginners. Here's why:
 # 1. Traversal order
 # Pre-order: Root → Left → Right
@@ -189,5 +193,55 @@ class Solution:
 # “I’m not solving the whole problem.
 # I’m just saying: ‘If you give me a node, I’ll do the right thing 
 # for it assuming left and right are taken care of.’”
+
+
+# you said i should concentrate only on the current node and just trust that the 
+# left tree calls and right tree calls would work?
+# but what about these lines?
+#         if left_result is not None:
+#             return left_result
+# it feels like i am doing some work related to the left branch and not 
+# just the current node ? how do you explain this to what you have said 
+# about recursion?
+
+# this looks like we’re breaking the “trust” rule by inspecting left_result.
+# Principle Recap:
+# Trust recursion means: focus only on current node logic, and assume 
+# subcalls do their job.
+# left_result = inorder(node.left)
+# if left_result is not None:
+#     return left_result
+# You're not breaking the principle, you’re chaining return values.
+# This is not doing the left node’s work — it’s asking:
+# “Did the left subtree already find the kth smallest? If so,
+# I’ll just return it up the chain.”
+# You're not thinking for the left — you’re respecting its output.'
+
+# Imagine each call is a person.
+# You say:
+# “Hey, left subtree, did you already find the answer?”
+# “Yes? Cool. I’ll stop working and pass it upward.”
+# “No? Then I’ll check myself, and if I’m not it, I’ll ask the right subtree.”
+# That’s still trusting recursion — but you’re also being efficient.
+
+
+# Why do we increment counter only once in each recursive call?
+# Because:
+# You only want to count a node when it’s being processed, i.e., when 
+# you’re at it in the in-order sequence.
+
+# Recall the traversal order
+# inorder(node):
+#     inorder(node.left)   # visit all left
+#     process(node)        # count here
+#     inorder(node.right)  # visit all right
+# You process exactly one node per function call — the current node.
+# Even though recursive calls are made, each call corresponds to exactly 
+# one node, and each process(node) happens once, after left is done.
+# Each node is visited once, and its counter is incremented exactly when 
+# it's its turn in the sorted in-order sequence.
+# That's why the counter is incremented once per call, at the moment '
+# 'of process(node) — and nowhere else.
+
 
         
