@@ -19,4 +19,20 @@ class Solution:
             else:
                 return node 
         return dfs(root)
+
+
+
+# Major explanations lie in kthsmallest problem
+
+# While writing the recursive function, don't think of the tree'
+# Just think of the current node 
+# Trust that the recursive call dfs(node.left) or dfs(node.right) works 
+# and process only the current node. That is all you have to do. 
+
+# When you do root.left - focus shifts - essentially we are traversing
+# This is the movement that does not intuitively feel like a movement 
+# In every recursive call, we are processing exactly one node. 
+# We give every node as argument to the same piece of logic 
+
+# Also observe that the values of p and q are hardcoded into the dfs function
         
