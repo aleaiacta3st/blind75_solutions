@@ -26,7 +26,8 @@ class Solution:
 
 # While writing the recursive function, don't think of the tree'
 # Just think of the current node 
-# Trust that the recursive call dfs(node.left) or dfs(node.right) works 
+# Trust that the recursive call dfs(node.left) or dfs(node.right) works and that
+# they will give you the answer you need
 # and process only the current node. That is all you have to do. 
 
 # When you do root.left - focus shifts - essentially we are traversing
