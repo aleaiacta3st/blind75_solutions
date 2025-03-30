@@ -35,4 +35,9 @@ class Solution:
 # We give every node as argument to the same piece of logic 
 
 # Also observe that the values of p and q are hardcoded into the dfs function
+
+#The LCA is where the split happens and the nodes went their separate ways
+# If both values are less than the current node, shift focus to left and search 
+# If both values are greater than the current node, shift focus to right and search
+# If one is bigger and the other is smaller than the current node, you are at the LCA 
         
