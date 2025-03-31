@@ -7,15 +7,36 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head is None:
             return None
-        prev = None 
-        current = head 
-        while current is not None:
-            temp = current.next #save the reference to the next node because 
-                                #we are about to remake connections
-            current.next = prev #make the current node point to its previous node
-            prev=current #Move prev forward to current
-            current = temp #Move current forward to temp
-        return prev
+        def revlist(node):
+            if node is None:
+                return None 
+            if node.next is None:
+                return node
+            store = revlist(node.next)
+            node.next.next=node
+            node.next=None 
+            return store
+        return revlist(head)
+
+
+
+
+
+
+
+
+
+        # if head is None:
+        #     return None
+        # prev = None 
+        # current = head 
+        # while current is not None:
+        #     temp = current.next #save the reference to the next node because 
+        #                         #we are about to remake connections
+        #     current.next = prev #make the current node point to its previous node
+        #     prev=current #Move prev forward to current
+        #     current = temp #Move current forward to temp
+        # return prev
 
      
 # Both temp and current.next are references (or pointers) to ListNode objects 
