@@ -20,4 +20,6 @@ class Solution:
             count_even = expand_around_centre(i,i+1)
             count=count+count_odd+count_even
         return count
+
+#adapted from longest palindrome solution
         
