@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
 ## Sorting
 |  |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0143-reorder-list) |
+| [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 ## Greedy
 |  |
 | ------- |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
 ## Trie
 |  |
