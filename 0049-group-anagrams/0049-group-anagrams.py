@@ -22,6 +22,10 @@ class Solution:
 # Strings in Python are immutable, which means once created, they 
 # cannot be changed.
 
+#you can also wrap up the sorted list as a tuple. that works too.
+#default dict, if key does not exist, make sone and sets. but I have not used
+# it here
+
 # How list(grouped_anagrams.values()) Works
 # This line transforms your dictionary of anagram groups into the final output format. Let me break it down:
 
