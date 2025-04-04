@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0073-set-matrix-zeroes) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -290,4 +292,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
