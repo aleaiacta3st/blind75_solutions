@@ -73,3 +73,34 @@ class MedianFinder:
 # Here’s the first principles truth:
 # The median is the number that sits in the middle of a sorted list.
 # It divides the list such that half the elements are smaller and half are larger.
+
+
+# where are the min heap and min heap being used? arent they seen by the user
+# Understanding MedianFinder's Implementation
+# The min_heap and max_heap are internal implementation details - the user never directly interacts with them. This is a key concept in object-oriented programming called encapsulation.
+# How It Works Internally:
+# class MedianFinder:
+#     def __init__(self):
+#         self.min_heap = []  # Stores larger half of numbers
+#         self.max_heap = []  # Stores smaller half of numbers (as negatives)
+# These heaps are maintained internally by your class methods. Users of your class never need to:
+
+# Create the heaps themselves
+# Access the heaps directly
+# Understand how the heaps store the data
+
+# User's Perspective:
+# From a user's perspective, they only interact with two methods:
+# # User code
+# finder = MedianFinder()  # Creates a new finder with empty heaps
+# finder.addNum(41)        # User adds numbers one by one
+# finder.addNum(35)
+# current_median = finder.findMedian()  # User gets the current median
+# The user doesn't need to know:
+
+# That you're using heaps at all
+# That the max_heap stores negative values
+# How you balance the heaps
+# Any other implementation details
+
+# This abstraction is what makes your class powerful - the complexity of efficient median calculation is hidden behind a simple, clean interface that any developer can use without understanding the underlying mechanics.
