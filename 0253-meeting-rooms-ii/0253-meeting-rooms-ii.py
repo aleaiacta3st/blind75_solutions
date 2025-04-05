@@ -23,4 +23,18 @@ class Solution:
                 current_rooms-=1
                 end_pointer+=1
         return max_rooms
+
+# separate start times and end times into separate arrays
+# get two pointers
+# compare start with end
+# if less, it means another meeting started 
+#  add a room 
+#  otherwise, decrease the current rooms 
+#  while start_pointer<=n-1
+#  it is enough if start pointer reaches the end, we need not wait for all end times also to be processed. 
+#  because no new meeting is going to get started. rooms in use are only going to decrease from that point on.
+
+
+#  if meetings overlap, they need separate rooms.
+# This problem is about finding the maximum number of overlapping intervals at any point in time.
         
