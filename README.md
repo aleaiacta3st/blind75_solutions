@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 ## Hash Table
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -90,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0190-reverse-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0191-number-of-1-bits) |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -284,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 ## Merge Sort
 |  |
 | ------- |
@@ -307,4 +312,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0079-word-search) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
