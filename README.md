@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
