@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0141-linked-list-cycle) |
+| [0208-implement-trie-prefix-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0208-implement-trie-prefix-tree) |
 ## Memoization
 |  |
 | ------- |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## String Matching
