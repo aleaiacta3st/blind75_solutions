@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
+| [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
+| [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## String Matching
