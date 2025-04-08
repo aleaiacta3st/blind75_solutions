@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 ## Hash Table
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
 ## Sorting
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -135,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0253-meeting-rooms-ii) |
+| [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 ## Math
 |  |
 | ------- |
