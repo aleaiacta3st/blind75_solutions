@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 ## Hash Table
 |  |
 | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 ## Two Pointers
 |  |
 | ------- |
