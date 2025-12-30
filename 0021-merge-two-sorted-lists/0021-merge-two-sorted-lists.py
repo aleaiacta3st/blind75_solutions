@@ -5,23 +5,24 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        def merge(p, q):
-            # Base cases
-            if p is None:
-                return q
-            if q is None:
-                return p
-            
-            # Choose smaller value as current head
-            if p.val < q.val:
-                p.next = merge(p.next, q)
-                return p
+        dummy = ListNode()
+        tail = dummy
+
+        while list1 and list2:
+            if list1.val<=list2.val:
+                tail.next=list1
+                list1 = list1.next
             else:
-                q.next = merge(p, q.next)
-                return q
-        
-        return merge(list1, list2)
-    
+                tail.next=list2
+                list2=list2.next
+            tail = tail.next
+
+        tail.next = list1 or list2
+
+        return dummy.next
+
+
+
             
 
 # In your recursive implementation, p and q are indeed nodes - 
@@ -48,7 +49,7 @@ class Solution:
 
 # The node you return now is the one that appears first in the final list.
 
-# \U0001f4e6 Think of each return as handing back a link in the chain.
+# 📦 Think of each return as handing back a link in the chain.
 # p = 2 → 4 → 6  
 # q = 3 → 5 → 7
 
