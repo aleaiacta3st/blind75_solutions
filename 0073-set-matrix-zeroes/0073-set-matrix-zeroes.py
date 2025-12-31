@@ -3,54 +3,108 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        m=len(matrix)
-        n=len(matrix[0])
+        m, n = len(matrix), len(matrix[0])
+        first_row_zero = any(matrix[0][j] == 0 for j in range(n))
+        first_col_zero = any(matrix[i][0] == 0 for i in range(m))
+        
+        # Mark zeros in first row/col
+        for i in range(1, m):
+            for j in range(1, n):
+                if matrix[i][j] == 0:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+        
+        # Apply zeros based on marks
+        for i in range(1, m):
+            for j in range(1, n):
+                if matrix[i][0] == 0 or matrix[0][j] == 0:
+                    matrix[i][j] = 0
+        
+        # Handle first row/col last
+        if first_row_zero:
+            for j in range(n): matrix[0][j] = 0
+        if first_col_zero:
+            for i in range(m): matrix[i][0] = 0
 
-        first_row_has_0=False 
-        first_column_has_0=False
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        # m=len(matrix)
+        # n=len(matrix[0])
+
+        # first_row_has_0=False 
+        # first_column_has_0=False
 
 
-        for j in range(n):
-            if matrix[0][j]==0:
-                first_row_has_0=True
-                break
+        # for j in range(n):
+        #     if matrix[0][j]==0:
+        #         first_row_has_0=True
+        #         break
 
-        for i in range(m):
-            if matrix[i][0]==0:
-                first_column_has_0=True
-                break
+        # for i in range(m):
+        #     if matrix[i][0]==0:
+        #         first_column_has_0=True
+        #         break
 
-        for i in range(m): #markers stored in first row and first column
-            for j in range(n):
-                if matrix[i][j]==0:
-                    matrix[i][0]=0
-                    matrix[0][j]=0 
+        # for i in range(m): #markers stored in first row and first column
+        #     for j in range(n):
+        #         if matrix[i][j]==0:
+        #             matrix[i][0]=0
+        #             matrix[0][j]=0 
 
-        for i in range(1,m): #you don't want to zero the first row using markers you have in the first column. This is because the 0 in the first column can either be the original value or a marker that you have set.
-        #assume there is a 0 in the first column. In your first pass, you set[0,0] to 0 because of this.
-        #And assume there is no 0 in the first row originally
-        #if you go by the marker, you will zero the first row which is wrong
-            if matrix[i][0]==0: #markers in the first column used to zero rows except the first row
-                for j in range(n):
-                    matrix[i][j]=0 #rows being set to 0 except the first row
+        # for i in range(1,m): #you don't want to zero the first row using markers you have in the first column. This is because the 0 in the first column can either be the original value or a marker that you have set.
+        # #assume there is a 0 in the first column. In your first pass, you set[0,0] to 0 because of this.
+        # #And assume there is no 0 in the first row originally
+        # #if you go by the marker, you will zero the first row which is wrong
+        #     if matrix[i][0]==0: #markers in the first column used to zero rows except the first row
+        #         for j in range(n):
+        #             matrix[i][j]=0 #rows being set to 0 except the first row
 
-        for j in range(1,n):#similar logic
-            if matrix[0][j]==0:#markers in first row used to zero columns
-                for i in range(m):
-                    matrix[i][j]=0 #columns being set to 0
+        # for j in range(1,n):#similar logic
+        #     if matrix[0][j]==0:#markers in first row used to zero columns
+        #         for i in range(m):
+        #             matrix[i][j]=0 #columns being set to 0
 
-        #innermatrix processed
-        #observe that only first column and first have not been processed yet
-        #You have to believe that every other column and row is processed because that is the truth
-        #now deal with first row and first column
+        # #innermatrix processed
+        # #observe that only first column and first have not been processed yet
+        # #You have to believe that every other column and row is processed because that is the truth
+        # #now deal with first row and first column
 
-        if first_row_has_0:
-            for j in range(n):
-                matrix[0][j]=0
+        # if first_row_has_0:
+        #     for j in range(n):
+        #         matrix[0][j]=0
 
-        if first_column_has_0:
-            for i in range(m):
-                matrix[i][0]=0 
+        # if first_column_has_0:
+        #     for i in range(m):
+        #         matrix[i][0]=0 
 
 
 
