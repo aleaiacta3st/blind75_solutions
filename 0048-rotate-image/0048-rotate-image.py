@@ -4,16 +4,16 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
 
-        m=len(matrix)
-        n=len(matrix[0])
-
-        for i in range(m):
-            for j in range(i+1,n):
-                matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
-
-        for i in range(m):
-            for j in range(n//2):
-                matrix[i][j],matrix[i][n-1-j]=matrix[i][n-1-j],matrix[i][j]
+        n = len(matrix)
+    
+        # Step 1: Transpose (swap across diagonal)
+        for i in range(n):
+            for j in range(i + 1, n):  # j > i to avoid double-swap
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+        
+        # Step 2: Reverse each row
+        for row in matrix:
+            row.reverse()
 
 
 # +-----+-----+-----+
