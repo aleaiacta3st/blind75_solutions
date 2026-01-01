@@ -1,22 +1,21 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        min_heap = []
-        frequency ={}
-        n=len(nums)
-        for i in range(n):
-            if nums[i] not in frequency:
-                frequency[nums[i]]=1
-            else:
-                frequency[nums[i]]+=1 
-        for key, value in frequency.items():
-            if len(min_heap)<k:
-                heapq.heappush(min_heap,(value,key))
-            else:
-                if value>min_heap[0][0]:
-                        heapq.heappop(min_heap)
-                        heapq.heappush(min_heap,(value,key))
+        count = {}
+        for num in nums:
+            count[num] = count.get(num, 0) + 1
+        
+        # buckets[i] = list of nums with frequency i
+        buckets = [[] for _ in range(len(nums) + 1)]
+        for num, freq in count.items():
+            buckets[freq].append(num)
+        
+        result = []
+        for freq in range(len(buckets) - 1, 0, -1):
+            for num in buckets[freq]:
+                result.append(num)
+                if len(result) == k:
+                    return result
 
-        return [number[1] for number in min_heap]
            
        
 
@@ -32,7 +31,7 @@ class Solution:
 # min heap organised from min to max, top to bottom 
 # if we keep removing the min element and adding a greater element in place of it, we will eventually be left with only greatest elements
 
-# \U0001f680 INSERT (Push)
+# 🚀 INSERT (Push)
 # Let’s say you're inserting a new number: 0.
 
 # Add it to the bottom (the next open spot in the array).
@@ -77,7 +76,7 @@ class Solution:
 
 # Max Heap: The largest element rules the top.
 
-# \U0001f9e0 Why is Heap Powerful?
+# 🧠 Why is Heap Powerful?
 # Because of one golden promise:
 
 # ⚡ Insert and remove the top element in O(log n) time.
