@@ -1,35 +1,106 @@
 class MedianFinder:
-
     def __init__(self):
-        self.min_heap=[]
-        self.max_heap=[]
-
-        
+        self.small = []  # max-heap (negate values)
+        self.large = []  # min-heap
 
     def addNum(self, num: int) -> None:
-        if len(self.max_heap)!=0 and num<-self.max_heap[0]:
-            heapq.heappush(self.max_heap,-num)
-        else:
-            heapq.heappush(self.min_heap,num)
-        if abs (len(self.max_heap)-len(self.min_heap)) > 1:
-            if len(self.max_heap) > len(self.min_heap):
-                heapq.heappush(self.min_heap,-heapq.heappop(self.max_heap))
-            else:
-                heapq.heappush(self.max_heap,-heapq.heappop(self.min_heap))
-        if self.max_heap and self.min_heap and not -self.max_heap[0]<self.min_heap[0]:
-            a=heapq.heappop(self.max_heap)# Extract negative value from max heap
-            b=heapq.heappop(self.min_heap)# Extract positive value from min heap
-            heapq.heappush(self.min_heap,-a)# Convert negative back to positive for min heap
-            heapq.heappush(self.max_heap,-b)# Convert positive to negative for max heap
+        heapq.heappush(self.small, -num)
+        heapq.heappush(self.large, -heapq.heappop(self.small))
         
+        if len(self.large) > len(self.small):
+            heapq.heappush(self.small, -heapq.heappop(self.large))
 
     def findMedian(self) -> float:
-        if len(self.max_heap)==len(self.min_heap):
-            return (-self.max_heap[0]+self.min_heap[0])/2 
-        elif len(self.max_heap)>len(self.min_heap):
-            return -self.max_heap[0]
-        else:
-            return self.min_heap[0]
+        if len(self.small) > len(self.large):
+            return -self.small[0]
+        return (-self.small[0] + self.large[0]) / 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # def __init__(self):
+    #     self.min_heap=[]
+    #     self.max_heap=[]
+
+        
+
+    # def addNum(self, num: int) -> None:
+    #     if len(self.max_heap)!=0 and num<-self.max_heap[0]:
+    #         heapq.heappush(self.max_heap,-num)
+    #     else:
+    #         heapq.heappush(self.min_heap,num)
+    #     if abs (len(self.max_heap)-len(self.min_heap)) > 1:
+    #         if len(self.max_heap) > len(self.min_heap):
+    #             heapq.heappush(self.min_heap,-heapq.heappop(self.max_heap))
+    #         else:
+    #             heapq.heappush(self.max_heap,-heapq.heappop(self.min_heap))
+    #     if self.max_heap and self.min_heap and not -self.max_heap[0]<self.min_heap[0]:
+    #         a=heapq.heappop(self.max_heap)# Extract negative value from max heap
+    #         b=heapq.heappop(self.min_heap)# Extract positive value from min heap
+    #         heapq.heappush(self.min_heap,-a)# Convert negative back to positive for min heap
+    #         heapq.heappush(self.max_heap,-b)# Convert positive to negative for max heap
+        
+
+    # def findMedian(self) -> float:
+    #     if len(self.max_heap)==len(self.min_heap):
+    #         return (-self.max_heap[0]+self.min_heap[0])/2 
+    #     elif len(self.max_heap)>len(self.min_heap):
+    #         return -self.max_heap[0]
+    #     else:
+    #         return self.min_heap[0]
         
 
 
