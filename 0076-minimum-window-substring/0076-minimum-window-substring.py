@@ -1,42 +1,36 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        t_scan={}
-        n=len(t)
-        m=len(s)
-        smallest_window = float('inf')
-        start_pos=0
-        for i in range(n):
-            if t[i] not in t_scan:
-                t_scan[t[i]]=1
-            else:
-                t_scan[t[i]]+=1 
-        distinct_required_characters = len(t_scan)
-        left=0
-
-        for i in range(m):
-            if s[i] in t_scan:
-                t_scan[s[i]]-=1
-                if (t_scan[s[i]])==0:
-                    distinct_required_characters-=1
-                if distinct_required_characters==0:
-                    while distinct_required_characters==0:
-                        current_window_len = i-left+1
-                        if current_window_len < smallest_window:
-                            smallest_window = current_window_len
-                            start_pos = left
-                        left=left+1
-                        if s[left-1] not in t_scan:
-                            continue
-                        else:
-                            if t_scan[s[left-1]] ==0:
-                                t_scan[s[left-1]]+=1
-                                distinct_required_characters+=1
-                            else:
-                                t_scan[s[left-1]]+=1
-        if smallest_window==float('inf'):
+        if not t or not s:
             return ""
-        else:
-            return s[start_pos:start_pos + smallest_window]
+    
+        need_freq = {}
+        for c in t:
+            need_freq[c] = need_freq.get(c, 0) + 1
+        
+        window_freq = {}
+        
+        freqs_met, freqs_needed = 0, len(need_freq)
+        left = 0
+        res, res_len = [-1, -1], float('inf')
+        
+        for right in range(len(s)):
+            right_char = s[right]
+            window_freq[right_char] = window_freq.get(right_char, 0) + 1
+            
+            if right_char in need_freq and window_freq[right_char] == need_freq[right_char]:
+                freqs_met += 1
+            
+            while freqs_met == freqs_needed:
+                if (right - left + 1) < res_len:
+                    res = [left, right]
+                    res_len = right - left + 1
+                
+                window_freq[s[left]] -= 1
+                if s[left] in need_freq and window_freq[s[left]] < need_freq[s[left]]:
+                    freqs_met -= 1
+                left += 1
+        
+        return s[res[0]:res[1]+1] if res_len != float('inf') else ""
         
 
 # distinct_required_characters = len(t_scan)
