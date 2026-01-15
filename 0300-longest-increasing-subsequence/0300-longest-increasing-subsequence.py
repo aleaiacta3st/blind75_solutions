@@ -1,8 +1,5 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        if len(nums)==1:
-            return 1 
-
         n=len(nums)
 
         dp=[1]*(n)
