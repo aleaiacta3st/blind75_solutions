@@ -1,14 +1,15 @@
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
-        max_i=nums[0]
-        min_i=nums[0]
-        max_product=nums[0]
         n=len(nums)
+        maxprod=nums[0]
+        minprod=nums[0]
+        global_max=nums[0]
 
         for i in range(1,n):
-            candidates = (max_i*nums[i], min_i*nums[i], nums[i])
-            max_i = max(candidates)
-            min_i = min(candidates)
-            max_product=max(max_product,max_i)
+            candidates=(maxprod*nums[i],minprod*nums[i],nums[i])
+            maxprod=max(candidates)
+            minprod=min(candidates)
+            global_max=max(maxprod,global_max)
 
-        return max_product
+        return global_max
+        
