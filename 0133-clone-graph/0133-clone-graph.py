@@ -14,20 +14,21 @@ class Solution:
 
         old_to_new={}
 
-        def dfs(node):
-            if node in old_to_new:
-                return old_to_new[node]
+        old_to_new[node]=Node(node.val)
 
-            copy=Node(node.val)
+        queue=deque([node])
 
-            old_to_new[node]=copy
+        while queue:
+            curr=queue.popleft()
 
-            for neighbor in node.neighbors:
-                copy.neighbors.append(dfs(neighbor))
+            for neighbor in curr.neighbors:
+                if neighbor not in old_to_new:
+                    copy=Node(neighbor.val)
+                    queue.append(neighbor)
+                    old_to_new[neighbor]=copy
+                old_to_new[curr].neighbors.append(old_to_new[neighbor])
 
-            return copy
-
-        return dfs(node)
+        return old_to_new[node]
 
         
         
