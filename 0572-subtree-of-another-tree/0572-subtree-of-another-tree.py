@@ -6,39 +6,35 @@
 #         self.right = right
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        if root is None:
-            return False 
-        def isSameTree(p,q):
-            if p==None and q==None:
-                return True 
-            if p==None or q==None:
+        def issameTree(p,q):
+            if not p and q:
                 return False
-            if (p.val==q.val):
-                return isSameTree(p.left,q.left) and isSameTree(p.right,q.right)
+            if p and not q:
+                return False
+            if not p and not q:
+                return True
+            if p.val!=q.val:
+                return False
+            return issameTree(p.left,q.left) and issameTree(p.right,q.right)
+
+        if not root and subRoot:
             return False
+        if root and not subRoot:
+            return False
+        if not root and not subRoot:
+            return True
+        if root.val==subRoot.val:
+            if issameTree(root,subRoot):
+                return True
+            else:
+                return self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot)
+        if root.val!=subRoot.val:
+            return self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot)
         
-        def dfs(root):
-            if root is None:
-                return False
-            if isSameTree(root,subRoot):
-                return True 
-            return dfs(root.left) or dfs(root.right)
-
-        return dfs(root)
+        
+            
+        
+        
 
 
-# The proper base case for this function is simply:
-#     if root is None:
-#     return False
-# This signifies you've reached the end of a '
-# 'branch without finding your target -
-
-# short-circuit evaluation.'
-# This means that if dfs(root.left) evaluates to True, 
-# then indeed, dfs(root.right) will not be evaluated at all
-
-# n coding terms, this OR logic means: 
-# 'If we find the subtree match anywhere in the '
-# 'left branch, return True immediately (and stop searching). '
-# 'Otherwise, check the right branch.' T
         
