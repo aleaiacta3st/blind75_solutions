@@ -1,32 +1,24 @@
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
-        visited=set()
-
-        adj_dict={}
-
-
-        for i in range(n):
-            adj_dict[i] = []
-
-
-        for node,neighbor in edges:
-            adj_dict[node].append(neighbor)
-            adj_dict[neighbor].append(node)
-
-
-        def dfs(node):
-            if node in visited:
-                return
-            visited.add(node)
-            for neighbor_nodes in adj_dict[node]:
-                dfs(neighbor_nodes)
-
-        count=0
-
-        for node in adj_dict:
-            if node not in visited:
-                count=count+1
-                dfs(node)
-
-        return count
+        parent = list(range(n))  # [0, 1, 2, ..., n-1]
+    
+        def find_leader(x):
+            if parent[x] != x:
+                return find_leader(parent[x])
+            return x
+        
+        def union(a, b):
+            leader_a = find_leader(a)
+            leader_b = find_leader(b)
+            if leader_a != leader_b:
+                parent[leader_b] = leader_a
+                return True   # merged two groups
+            return False      # already same group
+        
+        components = n
+        for a, b in edges:
+            if union(a, b):
+                components -= 1
+        
+        return components
         
