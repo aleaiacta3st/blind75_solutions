@@ -3,9 +3,10 @@ class Solution:
         parent = list(range(n))  # [0, 1, 2, ..., n-1]
     
         def find_leader(x):
-            if parent[x] != x:
+            if parent[x] == x:
+                return x
+            else:
                 return find_leader(parent[x])
-            return x
         
         def union(a, b):
             leader_a = find_leader(a)
