@@ -1,24 +1,45 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
 
-        visited=set()
-
         n=len(isConnected)
 
-        def dfs(node):
-            visited.add(node)
-            for neighbor in range(n):
-                if neighbor not in visited and isConnected[node][neighbor] == 1:
-                    visited.add(neighbor)
-                    dfs(neighbor)
+        parent=list(range(n))
 
-        provinces=0
+        def find_leader(x):
+            if x==parent[x]:
+                return x
+            else:
+                return find_leader(parent[x])
 
-        for node in range(n):
-            if node not in visited:
-                provinces=provinces+1
-                dfs(node)
+
+
+        def union(i,j):
+            leader_i = find_leader(i)
+            leader_j = find_leader(j)
+
+            if leader_i!=leader_j:
+                parent[leader_j]=leader_i
+                return True
+            else:
+                return False
+
+
+
+        provinces = n
+
+
+        for i in range(n):
+            for j in range(n):
+                if isConnected[i][j]==1:
+                    if union(i,j):
+                        provinces=provinces-1
+
 
         return provinces
+
+
+        
+
+        
 
         
