@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0053-maximum-subarray) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0062-unique-paths) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0143-reorder-list) |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0143-reorder-list) |
 ## Sliding Window
 |  |
@@ -408,4 +412,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
