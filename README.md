@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1143-longest-common-subsequence) |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
 |  |
 | ------- |
@@ -416,4 +419,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0042-trapping-rain-water) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
