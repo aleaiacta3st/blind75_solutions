@@ -13,6 +13,7 @@ class Solution:
             for j in range(0,i):
                 if dp[j]==True and s[j:i] in word_set:
                     dp[i]=True 
+                    break
 
 
         return dp[n]
