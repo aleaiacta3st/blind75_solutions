@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0518-coin-change-ii) |
+| [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 ## Graph
 |  |
 | ------- |
@@ -282,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
@@ -427,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 ## Monotonic Stack
 |  |
 | ------- |
