@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [0416-partition-equal-subset-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0518-coin-change-ii) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
+| [0416-partition-equal-subset-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
