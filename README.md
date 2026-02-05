@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
+| [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
 ## Sorting
 |  |
 | ------- |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0647-palindromic-substrings) |
 | [1143-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1250-longest-common-subsequence) |
+| [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
 ## Trie
 |  |
 | ------- |
@@ -389,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
+| [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
 ## Quickselect
 |  |
 | ------- |
