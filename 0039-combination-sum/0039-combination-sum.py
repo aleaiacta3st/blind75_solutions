@@ -1,23 +1,24 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
+        
 
+        n=len(candidates)
 
-        def dfs(start, combo, remaining):
+        result=[]
+
+        def backtrack(start,combo,remaining):
             if remaining==0:
                 result.append(combo[:])
-                return
+                return 
             if remaining<0:
                 return 
 
-
-            for i in range(start,len(candidates)):
+            for i in range(start,n):
                 combo.append(candidates[i])
-                dfs(i, combo, remaining-candidates[i])
+                backtrack(i,combo,remaining-candidates[i])
                 combo.pop()
 
 
-        dfs(0,[], target)
+        backtrack(0,[],target)
 
         return result
-        
