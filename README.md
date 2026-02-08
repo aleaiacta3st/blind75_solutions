@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
+| [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0261-graph-valid-tree) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
+| [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0212-word-search-ii) |
+| [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0994-rotting-oranges) |
