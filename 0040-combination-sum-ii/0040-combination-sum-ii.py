@@ -16,6 +16,8 @@ class Solution:
             if remaining<0:
                 return 
             for i in range(start,n):
+                if candidates[i]>remaining:
+                    break
                 if i>start and candidates[i]==candidates[i-1]:
                     continue
                 combo.append(candidates[i])
