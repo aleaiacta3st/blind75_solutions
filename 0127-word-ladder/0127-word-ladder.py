@@ -1,7 +1,11 @@
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-
+        
         word_set=set(wordList)
+
+        if endWord not in word_set:
+            return 0
+
 
         visited=set([beginWord])
 
@@ -13,7 +17,7 @@ class Solution:
             for i in range(n):
                 for ch2 in 'abcdefghijklmnopqrstuvwxyz':
                     new_word=word[0:i]+ch2+word[i+1:]
-                    if new_word==endWord and endWord in word_set:
+                    if new_word==endWord:
                         return distance+1
                     if  new_word in word_set and new_word not in visited:
                         visited.add(new_word)
