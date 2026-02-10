@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
 | [0518-coin-change-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0518-coin-change-ii) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 ## Prefix Sum
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0435-non-overlapping-intervals) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 ## Math
@@ -404,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 ## Merge Sort
 |  |
@@ -443,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0387-first-unique-character-in-a-string) |
+| [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [3144-minimum-substring-partition-of-equal-character-frequency](https://github.com/aleaiacta3st/blind75_solutions/tree/master/3144-minimum-substring-partition-of-equal-character-frequency) |
