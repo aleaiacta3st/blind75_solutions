@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 | [0994-rotting-oranges](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0994-rotting-oranges) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 ## Two Pointers
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0994-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -296,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1448-count-good-nodes-in-binary-tree) |
 ## Graph
 |  |
@@ -324,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [0994-rotting-oranges](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0994-rotting-oranges) |
 ## Union Find
 |  |
@@ -418,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 ## Merge Sort
 |  |
 | ------- |
@@ -490,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 ## Monotonic Stack
 |  |
 | ------- |
