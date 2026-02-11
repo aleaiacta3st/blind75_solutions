@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
 | [0994-rotting-oranges](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0994-rotting-oranges) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Hash Table
 |  |
 | ------- |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0907-koko-eating-bananas) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Two Pointers
 |  |
 | ------- |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0767-reorganize-string) |
 | [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Merge Sort
 |  |
 | ------- |
@@ -530,4 +534,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0332-reconstruct-itinerary) |
+## Sweep Line
+|  |
+| ------- |
+| [1851-minimum-interval-to-include-each-query](https://github.com/aleaiacta3st/blind75_solutions/tree/master/1851-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
