@@ -10,12 +10,12 @@ class Solution:
         def dfs(r,c):
             if (r,c) in memo:
                 return memo[(r,c)]
-            result=0
+            max_of_all_neighbors=0
             for dr,dc in [(0,1),(1,0),(-1,0),(0,-1)]:
                 nr,nc=r+dr,c+dc
                 if 0<=nr<m and 0<=nc<n and matrix[nr][nc]>matrix[r][c]:
-                    result=max(result,dfs(nr,nc))
-            memo[(r,c)]=1+result
+                    max_of_all_neighbors=max(max_of_all_neighbors,dfs(nr,nc))
+            memo[(r,c)]=1+max_of_all_neighbors
             return memo[(r,c)]
 
 
