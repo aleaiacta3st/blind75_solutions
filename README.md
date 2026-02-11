@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0338-counting-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0416-partition-equal-subset-sum) |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0139-word-break) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -271,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
@@ -296,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
@@ -316,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Matrix
 |  |
 | ------- |
@@ -328,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0212-word-search-ii) |
 | [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0695-max-area-of-island) |
 | [0778-swim-in-rising-water](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0778-swim-in-rising-water) |
@@ -489,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0207-course-schedule) |
 | [0269-alien-dictionary](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0269-alien-dictionary) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0547-number-of-provinces) |
 ## Union-Find
 |  |
