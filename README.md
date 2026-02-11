@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0271-encode-and-decode-strings](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0271-encode-and-decode-strings) |
 | [0286-walls-and-gates](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0347-top-k-frequent-elements) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0312-burst-balloons](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0338-counting-bits) |
 | [0377-combination-sum-iv](https://github.com/aleaiacta3st/blind75_solutions/tree/master/0377-combination-sum-iv) |
